@@ -1,0 +1,115 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navigationWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkturquoise;
+    height: 70px;
+}
+
+.logoWrapper a {
+    text-decoration: none;
+    padding: 25px 16px;
+}
+
+
+.logo {
+    font-size: 50px;
+    padding-left: 15px;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px 0 black, 
+                4px 4px 0 black;
+}
+
+.navigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.navigation a:hover {
+    background-color: #FF4600;
+    color: black;
+}
+
+.navigation a.active {
+    font-weight: 900;
+    -moz-box-shadow: inset 7.5px 7.5px 20px #0d7063;
+    -webkit-box-shadow: inset 7.5px 7.5px 20px #0d7063;
+    box-shadow: inset 7.5px 7.5px 20px #0d7063;
+  }
+
+.headers {
+    text-align: center;
+    text-shadow: .5px .5px #0DFFE2,
+                1.5px 1.5px rgba(254, 73, 2);
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+
+
+.renav a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
+}
+
+.renav a:hover {
+    color: #fa07c5;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.products a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.products a:hover {
+    color: #ff4600;
+    text-shadow: 1px 1px darkturquoise;
+}
+
+.description {
+    line-height: 1.75;
+    margin: 30px 35px;
+}
+
+.productImg {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
